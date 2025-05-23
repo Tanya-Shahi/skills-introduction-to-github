@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors in CSS</title>
+    <style>
+#redElement{color: red;}
+.blue{
+    color: rgb(255, 187, 0);background-color: beige;}
+    p{border: 2px solid red;}/*element selector*/
+    footer,span{color: blueviolet;}/*grouping selector*/
+
+    </style>
+</head>
+<body>
+    <h3>CSS selectors</h3>
+    <p class="blue">This is a simple paragraph to demonstrate css selectors</p><!--THIS IS AN EXAMPLE OF CLASS SELECTOR AND IS USED IN INTERNAL CSS WITH A DOT-->
+    <p id="redElement">This is a simple paragraph to demonstrate css selectors</p><!--THIS IS AN EXAMPLE OF ID SELECTOR AND IS GIVEN IN INTERNAL CSS WITH A # HASH-->
+    <p>This is a simple paragraph to demonstrate css selectors</p>
+    <footer>this is footer</footer>
+    <span>this is span</span>
+</body>
+</html>
