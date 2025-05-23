@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo selectors and more designing</title>
+    <style>
+        .container{
+            border: 2px solid red;
+            background-color: hwb(84 66% 5%);
+            padding: 34px;
+            margin: 34px auto;
+            width: 666px;
+        }
+        
+        a{
+            text-decoration:wavy;
+            
+
+        }
+        a:hover{ /* hover is used when u put mouse on read more button and it changes its font color*/
+            color: black;
+        }
+        
+        a.visited{/*this is color shown after   take u at the particular link u selected from read more*/
+background-color: aquamarine;color: rgb(54, 165, 42);
+        }
+        a.active{background-color: rgb(146, 255, 127);
+
+        }.btn{
+            background-color: rgb(174, 234, 234);
+            border:2px solid aqua;
+            padding:6px;
+            font-size: 13px;border-radius: 4px;color: blue;
+
+        }
+    
+
+    </style>
+</head>
+<body>
+    <div class="container" id="cont1">
+    <h3>This is my heading</h3>
+    <p>
+        Web development is the work involved in developing a website for the Internet (World Wide Web) or an intranet (a private network).[1] Web development can range from developing a simple single static page of plain text to complex web applications,
+         electronic businesses, and social network services. A more comprehensive list of tasks to which Web development commonly refers, may include Web engineering, Web design, Web content development, client liaison, client-side/server-side scripting, Web server and network security configuration, 
+         and e-commerce development.A "Web development" usually refers to the main non-design aspects of building Web sites: writing markup and coding.[2] Web development may use content management systems (CMS) to make content changes easier and available with basic technical skil.
+ </p>
+<a href="https://www.wikipedia.com" class="btn">Read more</a>
+<button class="btn">contact us</button>
+</div>
+</body>
+</html>
